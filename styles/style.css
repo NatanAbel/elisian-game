@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body {
+  font-family: "Roboto";
+  line-height: 3.5em;
+  font-weight: 300;
+  background-image: url("/assets/back_ground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.container-welcome{
+  text-align: center;
+  float: center;
+  margin-top: 10%;
+  padding: 0% 30%;
+  border: 2px solid black;
+  border-width: medium;
+}
+  /* background-image: linear-gradient(#FFFFFF, #000000, #FF0000); */
+
+
+.container-welcome > p{
+  font-weight: bold ;
+  font-size: 20px
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed"
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+h2 {
+  font-size: 60px;
+  line-height: 1.2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#canvas-container {
+  float: center;
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+#canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.game-over {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  display: none;
+}
+
+#start{
+  width: 200px; 
+  height: 50px; 
+  border-radius: 10px;
+  background-image: linear-gradient(#FFFFFF, #000000, #FF0000);
+  font-size: 1.2em;
+  color: white
+}
+#start:hover {
+  background-color: darkblue;
+} 
+#start:active {
+  background-color: black; 
+}
+
+#restart{
+  width: 200px; 
+  height: 50px; 
+  border-radius: 10px;
+  background-image: linear-gradient(#FFFFFF, #000000, #FF0000);
+  font-size: 1.2em;
+  color: white;
+  position:  absolute;
+  left: calc(80% - 100px);
+  bottom: 40%;
+}
+#restart:hover {
+  background-color: darkblue;
+} 
+#restart:active {
+  background-color: black; 
+}
+

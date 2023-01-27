@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/my-first-game"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "elisian-game"
+	}
+}
