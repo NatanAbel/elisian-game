@@ -19,7 +19,7 @@ const gameOverImg = new Image();
 gameOverImg.src = "./assets/game_over.png";
 
 const audio = new Audio("./audio/barn-beat-01.mp3");
-audio.volume = 0.2;
+audio.volume = 0.1;
 
 
 let spritePositionY = canvas.height - 100;
