@@ -59,7 +59,7 @@ class obstacle{
     // ctx.fillRect(this.positionX, this.positionY, this.width, this.height )
     ctx.drawImage( obstacleImg, this.positionX, this.positionY, this.width, this.height )
     
-    if(score % 6 === 0){
+    if(score % 4 === 0){
       obstacleSpeed += 0.5;
     }
     this.positionX -= obstacleSpeed;
@@ -91,7 +91,7 @@ class randomCoin{
   drawCoins(){
     ctx.drawImage( coinImg, this.positionX, this.positionY, this.width, this.height )
     
-    if(score % 6 === 0){
+    if(score % 4 === 0){
       coinSpeed += 0.5
     }
     this.positionX -= coinSpeed 
@@ -164,7 +164,7 @@ function animate() {
  
   if (isSpriteGiongDown && spritePositionY < canvas.height - spriteHeight) {
     // console.log(spritePositionY, "spr..................");
-    spritePositionY += 10;
+    spritePositionY += 5;
   }
 
   //calling the coinCollision method and draw method
